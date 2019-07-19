@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kingdee.zwy.test.mapper.TAtTaskMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.kingdee.zwy.test.entity.TAtTask">
+        <id column="taskId" property="taskId" />
+        <result column="userId" property="userId" />
+        <result column="batchId" property="batchId" />
+        <result column="companyId" property="companyId" />
+        <result column="taxOffice" property="taxOffice" />
+        <result column="region" property="region" />
+        <result column="taskAction" property="taskAction" />
+        <result column="taskProgress" property="taskProgress" />
+        <result column="name" property="name" />
+        <result column="pwd" property="pwd" />
+        <result column="periodBegin" property="periodBegin" />
+        <result column="periodEnd" property="periodEnd" />
+        <result column="taxType" property="taxType" />
+        <result column="data" property="data" />
+        <result column="message" property="message" />
+        <result column="extend" property="extend" />
+        <result column="startDate" property="startDate" />
+        <result column="exeNumber" property="exeNumber" />
+        <result column="taxRecordId" property="taxRecordId" />
+        <result column="shPhone" property="shPhone" />
+        <result column="newOldLoginType" property="newOldLoginType" />
+        <result column="taskNode" property="taskNode" />
+        <result column="zhsb" property="zhsb" />
+        <result column="fjmsb" property="fjmsb" />
+        <result column="endDate" property="endDate" />
+        <result column="phoneonline" property="phoneonline" />
+        <result column="beginDate" property="beginDate" />
+    </resultMap>
+
+</mapper>

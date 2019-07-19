@@ -1,0 +1,17 @@
+spring:
+#    datasource:
+#        driver-class-name: org.h2.Driver
+#        schema: classpath:db/schema-h2.sql
+#        url: jdbc:h2:mem:test
+#        username: root
+#        password: test
+#        data: classpath:db/data-h2.sql
+#    h2:
+#        console:
+#            enabled: true
+#            path: /h2-console
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://172:20:176:213:3306/autotax?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull
+        username: test
+        password: kdzwytest
